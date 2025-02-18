@@ -19,6 +19,8 @@ def open_image():
         random_string = random.choice(strings)
         text_label.config(text=f"{random_number}\n{random_string}")
 
+
+
 root = tk.Tk()
 root.title("Image Loader")
 root.geometry("400x450")
@@ -31,3 +33,9 @@ text_label = tk.Label(root, text="", font=("Arial", 14))
 text_label.pack()
 
 root.mainloop()
+
+
+
+
+
+
